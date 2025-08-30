@@ -78,6 +78,9 @@ def generate_person_html(persons, connection=", ", make_bold=True, make_bold_nam
             
         if p != persons[-1]:
             string_part_i += connection
+        if not make_bold:
+            # for actual bibtex 
+            string_part_i = string_part_i.replace('*', '')
         s += string_part_i
     return s
 
@@ -106,7 +109,7 @@ def get_paper_entry(entry_key, entry):
             print(f'[{entry_key}] Warning: Field {k} missing!')
 
     cite = "<pre><code>@InProceedings{" + f"{entry_key}, \n"
-    cite += "\tauthor = {" + f"{generate_person_html(entry.persons['author'], make_bold=True, add_links=False, connection=' and ')}" + "}, \n"
+    cite += "\tauthor = {" + f"{generate_person_html(entry.persons['author'], make_bold=False, add_links=False, connection=' and ')}" + "}, \n"
     for entr in ['title', 'booktitle', 'year']:
         cite += f"\t{entr} = " + "{" + f"{entry.fields[entr]}" + "}, \n"
     cite += """}</pre></code>"""
