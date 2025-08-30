@@ -187,7 +187,7 @@ def get_index_html():
                             I also work closely with <a href="https://janericlenssen.github.io/">Jan Eric Lessen</a>. I am interested in 3D computer vision, generative models, especially in accurate reconstruction/tracking and realistic synthesis of humans and objects. 
                             My research goal is to create digital humans that behave like real humans and empower them with intelligence to finish daily tasks as humans do.
                         </p>
-                        <p>For any inquiries or collaborations, feel free to reach out to me via mail!</p>
+                        <p>For any inquiries or collaborations, feel free to reach out to me via email!</p>
                         <p>
                             <a href="mailto:xxie@mpi-inf.mpg.de" style="margin-right: 5px"><i class="far fa-envelope-open fa-lg"></i> Mail</a>
                             <a href="https://x.com/XianghuiXie" target="_blank" style="margin-right: 5px"><i class="fab fa-twitter fa-lg"></i> Twitter</a>
