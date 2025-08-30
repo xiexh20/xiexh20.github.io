@@ -46,8 +46,8 @@ def get_author_dict():
         "Cristian Sminchisescu": "https://scholar.google.com/citations?user=LHTI1W8AAAAJ&hl=en",
         "Christian Theobalt": "https://www.mpi-inf.mpg.de/departments/visual-computing-and-artificial-intelligence",
         "Riccardo Marin": "riccardomarin.github.io",
-        "Xianghui Xie": "https://xianghui-xie.github.io/",
-        "Xianghui Xie*": "https://xianghui-xie.github.io/",
+        "Xianghui Xie": "https://xiexh20.github.io/",
+        "Xianghui Xie*": "https://xiexh20.github.io/",
         "Bharat Lal Bhatnagar*": "https://virtualhumans.mpi-inf.mpg.de/people/Bhatnagar.html",
         "Chuhang Zou": "https://zouchuhang.github.io/"
         }
@@ -69,8 +69,13 @@ def generate_person_html(persons, connection=", ", make_bold=True, make_bold_nam
             print(f'[{string_part_i}] Warning: Author not found in author dictionary!')
         print('string_part_i', string_part_i)
         if make_bold and make_bold_name in string_part_i:
-            string_part_i = f'<span style="font-weight: bold";>{make_bold_name}</span>'
-            print('making bold for ', string_part_i)
+            print('making bold for ', string_part_i, make_bold_name)
+            html_string = string_part_i
+            start = html_string.find('>') + 1
+            end = html_string.rfind('<')
+            text = html_string[start:end]
+            string_part_i = f'<span style="font-weight: bold";>{text}</span>'
+            
         if p != persons[-1]:
             string_part_i += connection
         s += string_part_i
