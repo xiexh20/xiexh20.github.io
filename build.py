@@ -55,7 +55,7 @@ def get_author_dict():
 def generate_person_html(persons, connection=", ", make_bold=True, make_bold_name='Xianghui Xie', add_links=True):
     links = get_author_dict() if add_links else {}
     s = ""
-    for p in persons:
+    for i, p in enumerate(persons):
         string_part_i = ""
         for name_part_i in p.get_part('first') + p.get_part('middle') + p.get_part('last'): 
             if string_part_i != "":
@@ -82,6 +82,8 @@ def generate_person_html(persons, connection=", ", make_bold=True, make_bold_nam
             # for actual bibtex 
             string_part_i = string_part_i.replace('*', '')
         s += string_part_i
+        if i % 5  == 0 and i != 0:
+            s += '\n' # new line to avoid long lines in bibtex
     return s
 
 def get_paper_entry(entry_key, entry):
@@ -96,6 +98,9 @@ def get_paper_entry(entry_key, entry):
 
     s += f"""{generate_person_html(entry.persons['author'])} <br>"""
     s += f"""<span style="font-style: italic;">{entry.fields['booktitle']}</span>, {entry.fields['year']} <br>"""
+
+    if 'note' in entry.fields.keys():
+        s += f"""<span style="font-style: normal;">{entry.fields['note']}</span><br>"""
 
     artefacts = {'website': 'Project Page', 'pdf': 'Paper', 'supp': 'Supplemental', 'video': 'Video', 'poster': 'Poster', 'code': 'Code'}
     i = 0
