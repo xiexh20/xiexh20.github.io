@@ -179,7 +179,7 @@ def get_index_html():
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <title>{name[0] + ' ' + name[1]}</title>
-  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="assets/icon-min.png">
 </head>
 
 <body>
@@ -219,6 +219,10 @@ def get_index_html():
                         <h4>News</h4>
                         <div style="margin-bottom: 2em;">
                             <ul style="list-style: none; padding-left: 0;">
+                                <li style="margin-bottom: 0.5em;">
+                                    <span style="color: #6c757d; font-weight: bold; display: inline-block; width: 80px;">Dec 2025</span>
+                                    <span>Received NVIDIA PhD <a href="https://blogs.nvidia.com/blog/graduate-fellowship-recipients-2026-2027/">Fellowship finalist</a>!</span>
+                                </li>
                                 <li style="margin-bottom: 0.5em;">
                                     <span style="color: #6c757d; font-weight: bold; display: inline-block; width: 80px;">Aug 2025</span>
                                     <span>Two papers accepted to SIGGRAPH Asia!</span>
