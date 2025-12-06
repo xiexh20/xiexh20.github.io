@@ -15,7 +15,7 @@ def get_personal_data():
                 </p>
                 <p>For any inquiries or collaborations, feel free to reach out to me via mail!</p>
                 <p>
-                    <a href="mailto:xxie@mpi-inf.mpg.de" style="margin-right: 5px"><i class="far fa-envelope-open fa-lg"></i> Mail</a>
+                    <a href="#" onclick="revealEmail(this, 'xxie', 'mpi-inf.mpg.de'); return false;" style="margin-right: 5px"><i class="far fa-envelope-open fa-lg"></i> Mail</a>
                     <a href="https://x.com/XianghuiXie" target="_blank" style="margin-right: 5px"><i class="fab fa-twitter fa-lg"></i> Twitter</a>
                     <a href="https://scholar.google.com/citations?user=J3TVNXEAAAAJ&hl=en" target="_blank" style="margin-right: 5px"><i class="fa-solid fa-book"></i> Scholar</a>
                     <a href="https://github.com/xiexh20" target="_blank" style="margin-right: 5px"><i class="fab fa-github fa-lg"></i> Github</a>
@@ -29,8 +29,6 @@ def get_personal_data():
                 <h4>Homepage Template</h4>
                 <p>
                     This website is based on the template from <a href="https://github.com/m-niemeyer/m-niemeyer.github.io">Michael Miemeyer</a>. <br>
-                    <a href="https://kashyap7x.github.io/" target="_blank">&#9883;</a>
-                    <a href="https://kait0.github.io/" target="_blank">&#9883;</a>
                 </p>
             </div>
     """
@@ -202,7 +200,7 @@ def get_index_html():
                         </p>
                         <p>For any inquiries or collaborations, feel free to reach out to me via email!</p>
                         <p>
-                            <a href="mailto:xxie@mpi-inf.mpg.de" style="margin-right: 5px"><i class="far fa-envelope-open fa-lg"></i> Mail</a>
+                            <a href="#" onclick="revealEmail(this, 'xxie', 'mpi-inf.mpg.de'); return false;" style="margin-right: 5px"><i class="far fa-envelope-open fa-lg"></i> Mail</a>
                             <a href="https://x.com/XianghuiXie" target="_blank" style="margin-right: 5px"><i class="fab fa-twitter fa-lg"></i> Twitter</a>
                             <a href="https://scholar.google.com/citations?user=J3TVNXEAAAAJ&hl=en" target="_blank" style="margin-right: 5px"><i class="fa-solid fa-book"></i> Scholar</a>
                             <a href="https://github.com/xiexh20" target="_blank" style="margin-right: 5px"><i class="fab fa-github fa-lg"></i> Github</a>
@@ -315,6 +313,18 @@ def get_index_html():
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"></script>
+    <script>
+      function revealEmail(link, user, domain) {{
+        var domainParts = domain.split('.');
+        var email = user + ' at ' + domainParts.join(' dot ');
+        link.innerHTML = '<i class="far fa-envelope-open fa-lg"></i> ' + email;
+        link.removeAttribute('href');
+        link.style.cursor = 'text';
+        link.style.textDecoration = 'none';
+        link.style.color = 'inherit';
+        link.onclick = null;
+      }}
+    </script>
 </body>
 
 </html>
