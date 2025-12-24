@@ -47,7 +47,13 @@ def get_author_dict():
         "Xianghui Xie": "https://xiexh20.github.io/",
         "Xianghui Xie*": "https://xiexh20.github.io/",
         "Bharat Lal Bhatnagar*": "https://virtualhumans.mpi-inf.mpg.de/people/Bhatnagar.html",
-        "Chuhang Zou": "https://zouchuhang.github.io/"
+        "Chuhang Zou": "https://zouchuhang.github.io/",
+        "Bowen Wen": "https://wenbowen123.github.io/",
+        "Jiefeng Li": "https://jeffli.site/",
+        "Stan Birchfield": "https://research.nvidia.com/person/stan-birchfield",
+        "Ye Yuan": "https://ye-yuan.com/",
+        "Gerard Pons-Moll": "https://virtualhumans.mpi-inf.mpg.de/people/pons-moll.html",
+        "Stan Birchfield": "https://research.nvidia.com/person/stan-birchfield"
         }
 
 def generate_person_html(persons, connection=", ", make_bold=True, make_bold_name='Xianghui Xie', add_links=True):
