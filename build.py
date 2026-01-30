@@ -53,7 +53,10 @@ def get_author_dict():
         "Stan Birchfield": "https://research.nvidia.com/person/stan-birchfield",
         "Ye Yuan": "https://ye-yuan.com/",
         "Gerard Pons-Moll": "https://virtualhumans.mpi-inf.mpg.de/people/pons-moll.html",
-        "Stan Birchfield": "https://research.nvidia.com/person/stan-birchfield"
+        "Stan Birchfield": "https://research.nvidia.com/person/stan-birchfield",
+        "Chuqiao Li": "https://coral79.github.io/",
+        "Yong Cao": "https://yongcaoplus.github.io/",
+        "Andreas Geiger": "https://www.cvlibs.net/",
         }
 
 def generate_person_html(persons, connection=", ", make_bold=True, make_bold_name='Xianghui Xie', add_links=True):
