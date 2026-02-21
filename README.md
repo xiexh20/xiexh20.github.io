@@ -1,6 +1,6 @@
 # Personal Website
 
-This repository contains the python script to generate [my homepage](https://m-niemeyer.github.io/). It is very easy to adapt to your needs, and easy to maintain as the papers are crawled automatically from `publication_list.bib` and the talks from `talk_list.bib`.
+This repository contains the python script to generate [my homepage](https://xiexh20.github.io/). It is very easy to adapt to your needs, and easy to maintain as the papers are crawled automatically from `publication_list.bib` and the talks from `talk_list.bib`. This repo is adapted from the [Michael Niemyer's website](https://m-niemeyer.github.io/).
 
 ## How to use it
 1. Update and adjust the name and bio text in the function `get_personal_data` in the `build.py` file.
