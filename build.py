@@ -203,8 +203,8 @@ def get_index_html():
                     <div class="col-md-9">
                         <p style="text-align: justify;">
                             I am a PhD student at the <a href="https://virtualhumans.mpi-inf.mpg.de/" target="_blank">Real Virtual Humans</a> group at <a href="https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning" target="_blank">Max Planck Institute for Informatics</a> and
-                            <a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/fachbereich/" target="_blank">University of Tuebingen</a> under supervision of <a href="https://virtualhumans.mpi-inf.mpg.de/people/pons-moll.html" target="_blank">Prof. Dr. Gerard Pons-Moll</a>.
-                            I also work closely with <a href="https://janericlenssen.github.io/">Jan Eric Lessen</a>. I am interested in 3D computer vision, generative models, especially in accurate reconstruction/tracking and realistic synthesis of humans and objects. 
+                            <a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/fachbereich/" target="_blank">University of T&uuml;ebingen</a> under supervision of <a href="https://virtualhumans.mpi-inf.mpg.de/people/pons-moll.html" target="_blank">Prof. Dr. Gerard Pons-Moll</a>.
+                            I also work closely with <a href="https://janericlenssen.github.io/">Dr. Jan Eric Lessen</a>. I am interested in 3D computer vision, generative models, especially in accurate reconstruction/tracking and realistic synthesis of humans and objects. 
                             My research goal is to create digital humans that behave like real humans and empower them with intelligence to finish daily tasks as humans do.
                         </p>
                         <p>For any inquiries or collaborations, feel free to reach out to me via email!</p>
@@ -226,6 +226,10 @@ def get_index_html():
                         <h4>News</h4>
                         <div style="margin-bottom: 2em;">
                             <ul style="list-style: none; padding-left: 0;">
+                                <li style="margin-bottom: 0.5em;">
+                                    <span style="color: #6c757d; font-weight: bold; display: inline-block; width: 80px;">Feb 2026</span>
+                                    <span>Two papers accepted at CVPR! Checkout <a href="https://nvlabs.github.io/CARI4D/">CARI4D</a> and <a href="https://coral79.github.io/frankenmotion/">FrankenMotion</a>.</span>
+                                </li>
                                 <li style="margin-bottom: 0.5em;">
                                     <span style="color: #6c757d; font-weight: bold; display: inline-block; width: 80px;">Dec 2025</span>
                                     <span>Received NVIDIA PhD <a href="https://blogs.nvidia.com/blog/graduate-fellowship-recipients-2026-2027/">Fellowship finalist</a>!</span>
