@@ -43,7 +43,13 @@ def get_author_dict():
         "Bharat Lal Bhatnagar": "https://virtualhumans.mpi-inf.mpg.de/people/Bhatnagar.html",
         "Cristian Sminchisescu": "https://scholar.google.com/citations?user=LHTI1W8AAAAJ&hl=en",
         "Christian Theobalt": "https://www.mpi-inf.mpg.de/departments/visual-computing-and-artificial-intelligence",
-        "Riccardo Marin": "riccardomarin.github.io",
+        "Riccardo Marin": "https://ricma.netlify.app/",
+        "Yannan He": "https://virtualhumans.mpi-inf.mpg.de/people/He.html",
+        "Agniv Sharma": "https://www.utn.de/person/agniv-sharma/",
+        "Agniv Sharma*": "https://www.utn.de/person/agniv-sharma/",
+        "Tom Fischer": "https://www.utn.de/person/tom-fischer/",
+        "Eddy Ilg": "https://www.eddy-ilg.net/",
+        "Pradyumna Yalandur-Muralidhar": "https://pradyumnaym.github.io/",
         "Xianghui Xie": "https://xiexh20.github.io/",
         "Xianghui Xie*": "https://xiexh20.github.io/",
         "Bharat Lal Bhatnagar*": "https://virtualhumans.mpi-inf.mpg.de/people/Bhatnagar.html",
@@ -226,6 +232,10 @@ def get_index_html():
                         <h4>News</h4>
                         <div style="margin-bottom: 2em;">
                             <ul style="list-style: none; padding-left: 0;">
+                                <li style="margin-bottom: 0.5em;">
+                                    <span style="color: #6c757d; font-weight: bold; display: inline-block; width: 80px;">Jun 2026</span>
+                                    <span>ActionPlan accepted to ECCV! Checkout <a href="https://coral79.github.io/ActionPlan/" target="_blank">ActionPlan</a>.</span>
+                                </li>
                                 <li style="margin-bottom: 0.5em;">
                                     <span style="color: #6c757d; font-weight: bold; display: inline-block; width: 80px;">Mar 2026</span>
                                     <span>Started internship at <a href="https://research.nvidia.com/labs/gear/">NVIDIA GEAR Lab</a>!</span>
