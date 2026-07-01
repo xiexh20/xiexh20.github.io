@@ -234,7 +234,7 @@ def get_index_html():
                             <ul style="list-style: none; padding-left: 0;">
                                 <li style="margin-bottom: 0.5em;">
                                     <span style="color: #6c757d; font-weight: bold; display: inline-block; width: 80px;">Jun 2026</span>
-                                    <span>ActionPlan accepted to ECCV! Checkout <a href="https://coral79.github.io/ActionPlan/" target="_blank">ActionPlan</a>.</span>
+                                    <span>ActionPlan accepted to ECCV'26! Checkout <a href="https://coral79.github.io/ActionPlan/" target="_blank">ActionPlan</a>.</span>
                                 </li>
                                 <li style="margin-bottom: 0.5em;">
                                     <span style="color: #6c757d; font-weight: bold; display: inline-block; width: 80px;">Mar 2026</span>
@@ -242,7 +242,7 @@ def get_index_html():
                                 </li>
                                 <li style="margin-bottom: 0.5em;">
                                     <span style="color: #6c757d; font-weight: bold; display: inline-block; width: 80px;">Feb 2026</span>
-                                    <span>Two papers accepted at CVPR! Checkout <a href="https://nvlabs.github.io/CARI4D/">CARI4D</a> and <a href="https://coral79.github.io/frankenmotion/">FrankenMotion</a>.</span>
+                                    <span>Two papers accepted at CVPR'26! Checkout <a href="https://nvlabs.github.io/CARI4D/">CARI4D</a> and <a href="https://coral79.github.io/frankenmotion/">FrankenMotion</a>.</span>
                                 </li>
                                 <li style="margin-bottom: 0.5em;">
                                     <span style="color: #6c757d; font-weight: bold; display: inline-block; width: 80px;">Dec 2025</span>
@@ -250,7 +250,7 @@ def get_index_html():
                                 </li>
                                 <li style="margin-bottom: 0.5em;">
                                     <span style="color: #6c757d; font-weight: bold; display: inline-block; width: 80px;">Aug 2025</span>
-                                    <span>Two papers accepted to SIGGRAPH Asia!</span>
+                                    <span>Two papers accepted to SIGGRAPH Asia'25!</span>
                                 </li>
                                 <li style="margin-bottom: 0.5em;">
                                     <span style="color: #6c757d; font-weight: bold; display: inline-block; width: 80px;">Jun 2025</span>
@@ -262,15 +262,15 @@ def get_index_html():
                                 </li>
                                 <li style="margin-bottom: 0.5em;">
                                     <span style="color: #6c757d; font-weight: bold; display: inline-block; width: 80px;">Jun 2025</span>
-                                    <span>One paper accepted to TPAMI, check out <a href="https://yuxuan-xue.com/gen-3diffusion/" target="_blank">Gen-3Diffusion</a>.</span>
+                                    <span>One paper accepted to TPAMI'25, check out <a href="https://yuxuan-xue.com/gen-3diffusion/" target="_blank">Gen-3Diffusion</a>.</span>
                                 </li>
                                 <li style="margin-bottom: 0.5em;">
                                     <span style="color: #6c757d; font-weight: bold; display: inline-block; width: 80px;">Nov 2024</span>
-                                    <span>One paper accepted to 3DV. See <a href="https://virtualhumans.mpi-inf.mpg.de/InterTrack/" target="_blank">InterTrack</a>.</span>
+                                    <span>One paper accepted to 3DV'25. See <a href="https://virtualhumans.mpi-inf.mpg.de/InterTrack/" target="_blank">InterTrack</a>.</span>
                                 </li>
                                 <li style="margin-bottom: 0.5em;">
                                     <span style="color: #6c757d; font-weight: bold; display: inline-block; width: 80px;">Sep 2024</span>
-                                    <span>One paper accepted to NeurIPS, checkout <a href="https://yuxuan-xue.com/human-3diffusion/" target="_blank">Human3Diffusion</a>.</span>
+                                    <span>One paper accepted to NeurIPS'24, checkout <a href="https://yuxuan-xue.com/human-3diffusion/" target="_blank">Human3Diffusion</a>.</span>
                                 </li>
                                 <li style="margin-bottom: 0.5em;">
                                     <span style="color: #6c757d; font-weight: bold; display: inline-block; width: 80px;">Aug 2024</span>
@@ -278,7 +278,7 @@ def get_index_html():
                                 </li>
                                 <li style="margin-bottom: 0.5em;">
                                     <span style="color: #6c757d; font-weight: bold; display: inline-block; width: 80px;">Feb 2024</span>
-                                    <span>One paper accepted to CVPR as <span style="color: red; font-weight: bold;">highlight</span>, checkout <a href="https://virtualhumans.mpi-inf.mpg.de/procigen-hdm/" target="_blank">ProciGen</a>.</span>
+                                    <span>One paper accepted to CVPR'24 as <span style="color: red; font-weight: bold;">highlight</span>, checkout <a href="https://virtualhumans.mpi-inf.mpg.de/procigen-hdm/" target="_blank">ProciGen</a>.</span>
                                 </li>
                             </ul>
                             
